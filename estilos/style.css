@@ -20,11 +20,11 @@ p {
 }
 
 body {
-    background-color: white;
+    background-color: lightgrey;
 }
 
 header {
-    background-color: cyan;
+    background-color: black;
     padding-top: 88px;
     min-height: 157px;
 }
@@ -42,14 +42,13 @@ header h1 {
 nav {
     min-width: auto;
     min-height: 43px;
-    background-color: cyan;
+    background-color: black;
     box-shadow: 5px 2px 4px 0px #0000004a;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    text-shadow: 0px 1px 3px black;
     font-size: 23px;
     font-weight: bolder;
     padding: 15px;
@@ -59,15 +58,14 @@ nav a {
 }
 
 nav a:hover {
-    background-image: linear-gradient(to right,rgba(49, 172, 172, 0.473), rgba(255, 255, 255, 0.822), rgba(49, 172, 172, 0.473));
-    text-shadow: 0px 1px 3px black;
+    background-color: white;
+    color: black;
     border-radius: 5px;
     transition-duration: 1s;
-    font-size: 25px;
 }
 
 main {
-    background-color: darkturquoise;
+    background-color: black;
     min-height: 712px;
     max-width: 1030px;
     margin: auto;
@@ -82,19 +80,32 @@ main {
     padding: 0px 25px 20px 25px;
 }
 
+strong.gov {
+    color: mediumblue;
+}
+
+strong.eua {
+    color: green;
+}
+
+main span {
+    color: white;
+}
+
 main a {
     text-decoration: none;
-    color: black;
-    font-weight: bolder;
+    color: red;
+    font-weight: bold;
     transition-duration: .5s;
 }
 
 main a:hover {
-    color: red;
+    color: yellow;
 }
 
 main p {
     line-height: 1.6em;
+    color: white;
 }
 
 #blackimg {
@@ -127,7 +138,7 @@ a#button:hover {
 }
 
 footer {
-    background-color: cyan;
+    background-color: black;
     text-align: center;
     padding: 15px;
 }
@@ -146,6 +157,6 @@ footer > p > a {
 }
 
 footer > p > a:hover {
-    color: blue;
+    color: red;
     text-shadow: none;
 }
