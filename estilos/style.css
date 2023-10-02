@@ -8,6 +8,7 @@
     padding: 0px;
 }
 
+
 h1 {
     margin-top: 20px;   
     margin-bottom: 10px;
@@ -40,7 +41,8 @@ header h1 {
 }
 
 nav {
-    min-width: auto;
+    display: flex;
+    justify-content: center;
     min-height: 43px;
     background-color: black;
     box-shadow: 5px 2px 4px 0px #0000004a;
