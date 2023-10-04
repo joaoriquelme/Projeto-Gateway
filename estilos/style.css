@@ -105,6 +105,11 @@ main p {
 #blackimg {
     max-width: 658px;
     height: 264px;
+    margin-bottom: 15px;
+}
+
+#blackimg:hover {
+    outline: 2px solid white;
 }
 
 main h1 {
